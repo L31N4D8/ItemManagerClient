@@ -1,0 +1,33 @@
+.form {
+    width: 12em;
+    margin-right: 1em;
+}
+
+.border {
+    border: 1px solid White;
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0.25em;
+}
+
+.button.flat.neutral {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.input, 
+.inputElement,
+.label,
+.icon,
+.autocomplete .input input,
+.autocomplete .input label {
+    color: white !important;
+}
+
+.bar::before,
+.bar::after,
+.autocomplete .input span::before,
+.autocomplete .input span::after {
+    background-color: white !important;
+}

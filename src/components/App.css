@@ -1,0 +1,17 @@
+:root {
+    --preferred-font: "Helvetica", serif;
+}
+
+:global(input) {
+    font-family: "Helvetica", serif;
+}
+
+:global(body) {
+    background: LightSlateGray;
+}
+
+:global(#root) {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

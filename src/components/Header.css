@@ -1,0 +1,14 @@
+.header {
+    max-width: 22em;
+}
+
+.title {
+    color: White;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    font-size: 3em;
+}
+
+.subtitle {
+    color: Aqua;
+}
