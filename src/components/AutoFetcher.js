@@ -10,6 +10,6 @@ export default class AutoFetcher extends Component {
         this.interval = null
     }
     render() {
-        return this.props.children
+        return this.props.children || null
     }
 }

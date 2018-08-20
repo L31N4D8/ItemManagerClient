@@ -1,5 +1,5 @@
 import React from "react"
-import { List, ListItem, ListSubHeader } from 'react-toolbox/lib/list';
+import { List, ListItem, ListSubHeader } from "react-toolbox/lib/list"
 import { map } from "lodash"
 import moment from "moment"
 import AutoFetcher from "./AutoFetcher"

@@ -7,7 +7,7 @@ import styles from "./Form.css"
 const Form = ({ item, column, search, columns, onItemChange, onColumnChange, onSearchChange, onAddItem }) => (
     <div className={styles.form}>
         <form onSubmit={event => {
-            event.preventDefault()
+            event && event.preventDefault()
             onAddItem({ item, column })
         }}>
             <div className={styles.border}>
